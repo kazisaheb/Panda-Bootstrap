@@ -1,0 +1,9 @@
+#navbarSupportedContent {
+  flex-grow: 0;
+}
+.form-control {
+  width: 100%;
+}
+form {
+  width: 50%;
+}
