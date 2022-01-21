@@ -23,3 +23,17 @@ Only Navbar Media for Extra Small Screen
 /* ================================
 End Only Navbar Media for Extra Small Screen
 ============================================= */
+.single_Slide,
+.sub_form {
+  background-color: #fceae8;
+}
+.single_Slide button,
+.sub_form button,
+.card-body button {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+}
