@@ -37,3 +37,6 @@ End Only Navbar Media for Extra Small Screen
   padding: 9px 25px;
   cursor: pointer;
 }
+.sub_form form {
+  width: 100%;
+}
