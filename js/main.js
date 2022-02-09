@@ -68,5 +68,6 @@ for (image of images) {
 let subForm = document.getElementById('sub_form');
 
 subForm.addEventListener('dblclick', function () {
-  subForm.style.backgroundColor = 'aqua';
+  const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  subForm.style.backgroundColor = "#" + randomColor;
 })
