@@ -1,402 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/0e5dafa824.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="shortcut icon"
-      href="https://pngimg.com/uploads/panda/panda_PNG14.png"
-      type="image/x-icon"
-    />
-    <title>Panda</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    <header>
-      <!-- =================Navigation bar==================== -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container d-flex justify-content-between">
-          <a class="navbar-brand" href="#">
-            <img
-              src="https://programminghero1.github.io/panda-commerce/images/logo.png"
-              alt=""
-              width="150"
-              height="25"
-            />
-          </a>
 
-          <form class="d-flex">
-            <input
-              class="form-control me-2 bg-light rounded-pill"
-              type="search"
-              placeholder="Search"
-            />
-          </form>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-0 mb-2 mb-lg-0 fw-bold">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- ==============Carousel================== -->
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide container my-5"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators my-5">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div
-              class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3"
-            >
-              <div class="texts col-12 col-md-6 col-lg-7 p-5">
-                <h1>Product name</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
-                  temporibus tempora blanditiis repellat maxime sed,
-                  perspiciatis ipsa, nisi harum quis et illum.
-                </p>
-                <h2 class="text-danger">$1250</h2>
-                <button>Buy Now</button>
-              </div>
-              <img
-                class="col-12 col-md-6 col-lg-5 p-5"
-                src="https://programminghero1.github.io/panda-commerce/images/banner-images/tv.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3"
-            >
-              <div class="texts col-12 col-md-6 col-lg-7 p-5">
-                <h1>Product name</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
-                  temporibus tempora blanditiis repellat maxime sed,
-                  perspiciatis ipsa, nisi harum quis et illum.
-                </p>
-                <h2 class="text-danger">$1250</h2>
-                <button>Buy Now</button>
-              </div>
-              <img
-                class="col-12 col-md-6 col-lg-5 p-5"
-                src="https://programminghero1.github.io/panda-commerce/images/banner-images/xbox.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div
-              class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3"
-            >
-              <div class="texts col-12 col-md-6 col-lg-7 p-5">
-                <h1>Product name</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
-                  temporibus tempora blanditiis repellat maxime sed,
-                  perspiciatis ipsa, nisi harum quis et illum.
-                </p>
-                <h2 class="text-danger">$1250</h2>
-                <button>Buy Now</button>
-              </div>
-              <img
-                class="col-12 col-md-6 col-lg-5 p-5"
-                src="https://programminghero1.github.io/panda-commerce/images/banner-images/headphone.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0e5dafa824.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="https://pngimg.com/uploads/panda/panda_PNG14.png" type="image/x-icon" />
+  <title>Panda</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <header>
+    <!-- =================Navigation bar==================== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img src="https://programminghero1.github.io/panda-commerce/images/logo.png" alt="" width="150" height="25" />
+        </a>
+
+        <form class="d-flex">
+          <input class="form-control me-2 bg-light rounded-pill" type="search" placeholder="Search" />
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-0 mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </header>
-    <main>
+    </nav>
+    <!-- ==============Carousel================== -->
+    <div id="carouselExampleIndicators" class="carousel slide container my-5" data-bs-ride="carousel">
+      <div class="carousel-indicators my-5">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3">
+            <div class="texts col-12 col-md-6 col-lg-7 p-5">
+              <h1>Product name</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
+                temporibus tempora blanditiis repellat maxime sed,
+                perspiciatis ipsa, nisi harum quis et illum.
+              </p>
+              <h2 class="text-danger">$1250</h2>
+              <button>Buy Now</button>
+            </div>
+            <img class="col-12 col-md-6 col-lg-5 p-5"
+              src="https://programminghero1.github.io/panda-commerce/images/banner-images/tv.png" alt="" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3">
+            <div class="texts col-12 col-md-6 col-lg-7 p-5">
+              <h1>Product name</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
+                temporibus tempora blanditiis repellat maxime sed,
+                perspiciatis ipsa, nisi harum quis et illum.
+              </p>
+              <h2 class="text-danger">$1250</h2>
+              <button>Buy Now</button>
+            </div>
+            <img class="col-12 col-md-6 col-lg-5 p-5"
+              src="https://programminghero1.github.io/panda-commerce/images/banner-images/xbox.png" alt="" />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="single_Slide d-flex flex-column flex-md-row align-items-center rounded-3">
+            <div class="texts col-12 col-md-6 col-lg-7 p-5">
+              <h1>Product name</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Soluta, ut? Quidem incidunt aut eos voluptate ullam earum
+                temporibus tempora blanditiis repellat maxime sed,
+                perspiciatis ipsa, nisi harum quis et illum.
+              </p>
+              <h2 class="text-danger">$1250</h2>
+              <button>Buy Now</button>
+            </div>
+            <img class="col-12 col-md-6 col-lg-5 p-5"
+              src="https://programminghero1.github.io/panda-commerce/images/banner-images/headphone.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <div id="topCards" class="container my-5 d-flex flex-column flex-md-row justify-content-between">
       <div
-        class="container my-5 d-flex flex-column flex-md-row justify-content-between"
-      >
-        <div
-          class="container-fluid bg-warning rounded-3 d-flex align-items-center justify-content-between p-2 text-white"
-        >
-          <h1>Watch</h1>
-          <img
-            class="w-25"
-            src="https://programminghero1.github.io/panda-commerce/images/categories/watch.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="container-fluid my-4 my-md-0 mx-md-4 bg-primary rounded-3 d-flex align-items-center justify-content-between p-2 text-white"
-        >
-          <h1>Bags</h1>
-          <img
-            class="w-25"
-            src="https://programminghero1.github.io/panda-commerce/images/categories/bag.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="container-fluid bg-info rounded-3 d-flex align-items-center justify-content-between p-2 text-white"
-        >
-          <h1>Shoes</h1>
-          <img
-            class="w-25"
-            src="https://programminghero1.github.io/panda-commerce/images/categories/shoes.png"
-            alt=""
-          />
-        </div>
+        class="container-fluid bg-warning rounded-3 d-flex align-items-center justify-content-between p-2 text-white">
+        <h1>Watch</h1>
+        <img class="w-25" src="https://programminghero1.github.io/panda-commerce/images/categories/watch.png" alt="" />
       </div>
-      <!-- ==================== Products========================== -->
-      <h1 class="container my-5">Shoes</h1>
-      <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h1 class="container my-5">Backpacks</h1>
-      <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/bags/bag-1.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Red Laltu Bag</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/bags/bag-2.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col col-md-6 col-lg-4">
-            <div class="card h-100 shadow">
-              <img
-                src="https://programminghero1.github.io/panda-commerce/images/bags/bag-3.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Supply 350</h5>
-                <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <span class="d-flex justify-content-between align-items-center">
-                  <h5 class="card-price">$350.00</h5>
-                  <button>Buy Now >></button>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div
-        class="container sub_form my-5 p-5 rounded-3 d-flex justify-content-center"
-      >
-        <div>
-          <h1>LET'S STAY IN TOUCH</h1>
-          <p>Get updates on sales, specials and more</p>
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label"
-                >Email address</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Type your email..."
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
+        class="container-fluid my-4 my-md-0 mx-md-4 bg-primary rounded-3 d-flex align-items-center justify-content-between p-2 text-white">
+        <h1>Bags</h1>
+        <img class="w-25" src="https://programminghero1.github.io/panda-commerce/images/categories/bag.png" alt="" />
+      </div>
+      <div class="container-fluid bg-info rounded-3 d-flex align-items-center justify-content-between p-2 text-white">
+        <h1>Shoes</h1>
+        <img class="w-25" src="https://programminghero1.github.io/panda-commerce/images/categories/shoes.png" alt="" />
+      </div>
+    </div>
+    <!-- ==================== Products========================== -->
+    <h1 class="container my-5">Shoes</h1>
+    <div id="Shoes" class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
             </div>
-
-            <div class="mb-3 form-check">
-              <input
-                type="checkbox"
-                class="form-check-input"
-                id="exampleCheck1"
-              />
-              <label class="form-check-label" for="exampleCheck1"
-                >I'm 18+ years old.</label
-              >
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/shoes/shoe-1.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
-    <footer class="text-center">
-      <p>Copyright &copy; 2022 All right free.</p>
-    </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+    <h1 class="container my-5">Backpacks</h1>
+    <div class="container my-5" id="backpacks">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/bags/bag-1.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Red Laltu Bag</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/bags/bag-2.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4">
+          <div class="card h-100 shadow">
+            <img src="https://programminghero1.github.io/panda-commerce/images/bags/bag-3.png" class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Supply 350</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+              <span class="d-flex justify-content-between align-items-center">
+                <h5 class="card-price">$350.00</h5>
+                <button class="product_btn">Buy Now >></button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container sub_form my-5 p-5 rounded-3 d-flex justify-content-center">
+      <div>
+        <h1>LET'S STAY IN TOUCH</h1>
+        <p>Get updates on sales, specials and more</p>
+        <form>
+          <div class="mb-3">
+            <label for="InputEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+              placeholder="Type your email..." />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div>
+          </div>
+
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label" for="exampleCheck1">I'm 18+ years old.</label>
+          </div>
+          <button id="emailBtn" disabled type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="text-center">
+    <p>Copyright &copy; 2022 All right free.</p>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
